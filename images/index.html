@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CAMP</title>
+
+    <link rel="icon" href="favicon.ico"/>
+</head>
+
+<body>
+    <header>
+        <object class="logo" type="image/svg+xml" data="logo.svg"></object>
+    </header>
+
+    <main class="container">
+
+        <div class="LOG"> 
+            <h2>Faça seu login</h2> 
+
+        <object class="svgLog" type="image/svg+xml" data="log-in.svg"></object>
+        <h3>Entre com suas informações de cadastro.</h3>
+
+        <form action="" name="acesso">
+
+            <div class="input-field">
+                <label for="Email">E-mail</label>
+                <input type="text" name="Email" id="Email"
+                placeholder="Digite seu e-mail" required autocomplete="Email">
+            </div>
+
+            <div class="input-field">
+                <label for="Senha">Senha</label>
+                    <input type="password" name="Senha" id="password"
+                    placeholder="Digite sua senha" minlength="8" maxlength="10" required autocomplete="password">
+                <button id="eyeSvg" onclick="eyeclick()" alt="">
+   
+            </div>
+
+            <script src="script.js"></script>
+            
+            <section class="options">
+                <div class="input-checkbox">
+                    <input id="checkbox1" type="checkbox">
+                    <label for="checkbox1">Lembre-me</label>
+                </div>
+                    <a href="#">Esqueci minha senha</a>
+            </section>
+              
+            <input type="submit" value="ENTRAR">
+
+            <div class="Account">
+                Não tem uma conta?<label for="flip"> Registre-se</label>
+            </div>
+            <div>
+                
+        </form>
+        
+    </main>
+    <aside>
+
+    </aside>
+
+</body>
+</html>
